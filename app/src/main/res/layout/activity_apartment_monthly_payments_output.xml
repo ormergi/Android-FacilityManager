@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hit.or_oded.facility_manager.committee_activities.ApartmentMonthlyPaymentsOutputActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="bottom|center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:text="@string/january"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewJanuaryAmount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:text="@string/february"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewFebruaryAmount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:text="@string/march"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewMarchAmount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:text="@string/april"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewAprilAmount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:text="@string/may"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewMayAmount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:text="@string/june"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewJuneAmount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:text="@string/july"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewJulyAmount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:text="@string/august"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewAugustAmount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:text="@string/september"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewSeptemberAmount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:text="@string/october"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewOctoberAmount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:text="@string/november"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewNovemberAmount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:text="@string/december"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewDecemberAmount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cell_shape"
+                android:minWidth="100dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/buttonClose"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="buttonClose_clicked"
+        android:text="@string/close"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

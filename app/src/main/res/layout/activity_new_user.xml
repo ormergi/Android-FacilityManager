@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hit.or_oded.facility_manager.activities.NewUserActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="415dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        tools:layout_editor_absoluteX="16dp">
+
+        <EditText
+            android:id="@+id/editTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="ID"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="30dp" />
+
+        <EditText
+            android:id="@+id/editTextFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:hint="@string/first_name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            app:layout_constraintTop_toBottomOf="@+id/editTextProviderId"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <EditText
+            android:id="@+id/editTextLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:hint="@string/last_name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            app:layout_constraintTop_toBottomOf="@+id/editTextProviderFirstName"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:hint="@string/password"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            app:layout_constraintTop_toBottomOf="@+id/editTextProviderLastName"
+            tools:layout_editor_absoluteX="0dp"
+            android:autofillHints="At least 4 digits" />
+
+        <EditText
+            android:id="@+id/editTextOption1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center_horizontal"
+            android:hint="@string/option1"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            app:layout_constraintTop_toBottomOf="@+id/editTextAvailability"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <EditText
+            android:id="@+id/editTextOption2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:hint="@string/option2"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            app:layout_constraintTop_toBottomOf="@+id/editTextQuality"
+            tools:layout_editor_absoluteX="0dp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="buttonOK_clicked"
+        android:text="@string/ok"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCancel"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="64dp"
+        android:onClick="buttonCancel_clicked"
+        android:text="@string/cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</android.support.constraint.ConstraintLayout>

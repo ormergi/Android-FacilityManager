@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Facility Manager</string>
+
+    <!-- Strings related to user type menu -->
+    <string name="button_committee">Committee</string>
+    <string name="button_tenant">Tenant</string>
+    <string name="button_provider">Provider</string>
+    <string name="confirm_password">Confirm new password</string>
+    <string name="new_password">New password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="instructions">Who are you?</string>
+    <string name="welcome">Welcome!</string>
+
+    <!-- Strings related to login -->
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_id">ID</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="error_invalid_username">This username is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_login">The username or password are incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="radio_set_password">Set password</string>
+    <string name="login">Login</string>
+    <string name="forgot_passwod">Forgot Passwod</string>
+
+    <!-- Strings related to menu -->
+    <string name="show_my_payments">Show my payments</string>
+    <string name="view_all_payments">All payments</string>
+    <string name="view_total_monthly_payments">Total monthly payments</string>
+    <string name="add_apartment_payment">Add apartment payment</string>
+    <string name="apartment_number">Apartment Number</string>
+    <string name="month_number">Month number</string>
+    <string name="add_payment">Add payment</string>
+
+    <!-- Commitee manu options -->
+    <string name="enterProviderDetails">Add or update provider details</string>
+    <string name="getOptimalProvider">Find optimal provider</string>
+    <string name="getProviders">Show providers</string>
+    <string name="getParatmentsPayments">Show apartment monthly payments</string>
+    <string name="addTennantMonthPayment">Add tenant payment</string>
+    <string name="getApartmentsMonthsPaid">Show apartment payments</string>
+    <string name="getTenantMonthsPaid">Show tenant month paid</string>
+    <string name="title_activity_payments_view">Your Payments</string>
+    <string name="no_payments_found">No payments found!</string>
+    <string name="comeetieeMenuTitle">Hi Client</string>
+
+    <!-- Fields -->
+    <string name="tenant_id">Tenant ID</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="password">Password</string>
+    <string name="option1">Option1</string>
+    <string name="option2">Option2</string>
+    <string name="user_name">ID</string>
+    <string name="availability">Availability</string>
+    <string name="quality">Quality</string>
+    <string name="price">Price</string>
+    <string name="phone">Phone</string>
+    <string name="amount">Amount</string>
+
+    <string name="choose_provider_category">Choose provider category</string>
+    <!-- providers categories-->
+    <string name="cleaning">Cleaning</string>
+    <string name="gardening">Gardening</string>
+    <string name="plumbing">Plumbing</string>
+    <string name="electrics">Electrics</string>
+    <string name="tenant_menu_welcom">Hi Client</string>
+
+    <!-- Months names -->
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+    <!-- buttons text -->
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="test_button">Test</string>
+    <string name="month">Month</string>
+    <string name="close">Close</string>
+    <string name="all">All</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

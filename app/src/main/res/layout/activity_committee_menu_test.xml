@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center_horizontal"
+android:orientation="vertical"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context="com.hit.or_oded.facility_manager.test_activities.CommitteeMenuTestActivity">
+
+<TextView
+    android:id="@+id/textViewTitle"
+    style="@style/Title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:text="@string/test_button" />
+
+<Button
+    android:id="@+id/buttonShowTenantMonthPaid"
+    style="@style/Button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:gravity="center"
+    android:onClick="buttonShowTenantMonthPaid_clicked"
+    android:text="Show tenant month paid" />
+
+<Button
+    android:id="@+id/buttonShowApartmentPayments"
+    style="@style/Button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:gravity="center"
+    android:onClick="buttonShowApartmentPayments_clicked"
+    android:text="Show apartment payments" />
+
+<Button
+    android:id="@+id/buttonAddTenantPayment"
+    style="@style/Button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:gravity="center"
+    android:onClick="buttonAddTenantPayment_clicked"
+    android:text="Add tenant payment" />
+
+<Button
+    android:id="@+id/buttonShowApartmentMonthlyPayments"
+    style="@style/Button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:gravity="center"
+    android:onClick="buttonShowApartmentMonthlyPayments_clicked"
+    android:text="Show apartment monthly payments" />
+
+<Button
+    android:id="@+id/buttonShowProviders"
+    style="@style/Button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:gravity="center"
+    android:onClick="buttonShowProviders_clicked"
+    android:text="Show providers" />
+
+<Button
+    android:id="@+id/buttonFindOptimalProvider"
+    style="@style/Button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:gravity="center"
+    android:onClick="buttonFindOptimalProvider_clicked"
+    android:text="Find optimal provider" />
+
+<Button
+    android:id="@+id/buttonAddOrUpdateProvider"
+    style="@style/Button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:gravity="center"
+    android:onClick="buttonAddOrUpdateProvider_clicked"
+    android:text="Add or update provider details" />
+</LinearLayout>
